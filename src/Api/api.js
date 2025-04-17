@@ -1,0 +1,1 @@
+export const LOGIN = "https://medical-clinic.serv00.net/admin_api/login?model=Admin"
