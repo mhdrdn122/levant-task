@@ -1,0 +1,64 @@
+.custom-navbar {
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+    background-color: transparent;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .custom-navbar.scrolled {
+    background-color: #fff !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fbaf32;
+    font-family: 'Nunito', sans-serif;
+    transition: color 0.3s;
+  }
+  
+  .custom-navbar .navbar-brand span {
+    color: rgb(113, 154, 10);
+  }
+  
+  /* تنسيق الروابط */
+  .custom-navbar .nav-link {
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .custom-navbar.scrolled .nav-link {
+    color: #333;
+  }
+  
+  .custom-navbar .nav-link:hover,
+  .custom-navbar .nav-link.active {
+    color: #fbaf32;
+  }
+  
+  /* القوائم المنسدلة */
+  .custom-navbar .dropdown-menu {
+    background-color: #f8f9fa;
+    border: none;
+  }
+  
+  /* للجوال */
+  @media (max-width: 991.98px) {
+    .custom-navbar {
+      background-color: #fff !important;
+      padding: 1rem;
+    }
+  
+    .custom-navbar .nav-link {
+      color: #333;
+    }
+  
+    .custom-navbar .nav-link:hover {
+      color: #fbaf32;
+    }
+  }
+  

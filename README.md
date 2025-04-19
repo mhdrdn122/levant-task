@@ -1,12 +1,48 @@
-# React + Vite
+# Levant Task - React Vite App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a frontend task developed as part of my job application to **Levant**.
 
-Currently, two official plugins are available:
+## ⚙️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [Axios](https://axios-http.com/)
+- [React Router v7](https://reactrouter.com/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/)
+- [Cookie Universal](https://www.npmjs.com/package/cookie-universal)
+- Bootstrap 5.3
 
-## Expanding the ESLint configuration
+## 📦 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+
+```bash
+
+git clone https://github.com/your-username/levant-task.git
+cd levant-task
+
+npm install
+npm run dev
+http://localhost:5173/
+
+
+
+📁 Overview
+This project includes:
+
+Authentication system based on access token.
+
+Admin dashboard for managing advertisements (Create, Edit, Delete, View).
+
+Customer-facing interface for browsing categories, subcategories, products, and advertisements.
+
+Responsive design using React Bootstrap components.
+
+
+
+📝 Notes
+This project is built for demonstration purposes only and is not intended for production use.
+
+
+
