@@ -18,7 +18,6 @@ This project is a frontend task developed as part of my job application to **Lev
 1. **Clone the repository:**
 
 ```bash
-
 git clone https://github.com/your-username/levant-task.git
 cd levant-task
 
@@ -26,7 +25,7 @@ npm install
 npm run dev
 http://localhost:5173/
 
-
+```
 
 📁 Overview
 This project includes:
